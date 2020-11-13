@@ -1,0 +1,90 @@
+.component {
+    background: #696969;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.component h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.component-data {
+    padding: 10px;
+}
+
+.halved-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;    
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+}
+
+input:focus {
+    outline: none; 
+}
+
+label {
+    display: block;
+}
+
+.halved-display label,
+.halved-display p,
+h4 {
+    text-align: center;
+}
+
+
+h3 {
+    margin-top: 5px;
+}
+
+.work-experience-container {
+    margin-top: 20px;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    padding: 5px;
+}
+
+.del-btn,
+.add-job-btn {
+    margin: 20px auto 0 auto;    
+}
+
+.del-btn {
+    background: red;    
+}
+
+.add-job-btn {
+    background: green;   
+}
+
+#job-info ul li {
+    list-style: none;
+}
+
+button[type="submit"],
+#edit-btn {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    color: black;
+}
+
+#cv-display-info {
+    display: none;  
+}
